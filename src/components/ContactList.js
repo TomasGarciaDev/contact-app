@@ -14,7 +14,7 @@ const ContactList = (props) => {
   })
 
   return (
-    <div className="ui celled list">Contact List</div>
+    <div className="ui celled list">{renderContactList}</div>
   )
 }
 
